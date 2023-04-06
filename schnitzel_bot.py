@@ -1,11 +1,14 @@
+#!/usr/bin/env python3
+
 import requests
 from bs4 import BeautifulSoup
 import telegram
 import datetime
 
-# Set up Telegram bot
+# Set up Telegram bot new
 bot = telegram.Bot(token='6252257467:AAED7Yl2bnmtN7dGq5qXnR9zli6T1by3MeM')
 chat_id = '957054148'
+
 
 # Define function to check if schnitzel is on the menu
 def check_schnitzel():
